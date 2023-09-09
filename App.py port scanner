@@ -27,3 +27,4 @@ if __name__ == "__main__":
         print(f"Open ports on {target_host}: {', '.join(map(str, open_ports))}")
     else:
         print(f"No open ports found on {target_host}.")
+
